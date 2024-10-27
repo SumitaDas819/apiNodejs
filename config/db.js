@@ -1,5 +1,5 @@
 const mysql = require('mysql');
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv').config({ path: './config/.env' })
 //helps to read data form .env file
 console.log(process.env.DB_HOST)
 console.log(process.env.DB_USER)
